@@ -10,7 +10,7 @@ Repositori ini berisi implementasi kode dalam bahasa Python untuk menganalisis t
 
 Proyek ini disusun sebagai Tugas Akhir mata kuliah **Matematika Diskrit (SINF1002)**, Program Studi Informatika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Syiah Kuala (USK).
 
-## 👥 Tim Peneliti (Kelompok 7)
+## 👥 Tim Peneliti
 * **Muhammad Aqil Mubarak** (250810701100003)
 * **Shofy Suhaila Putri** (250810701100007)
 * **Faiz Asra** (250810701100062)
@@ -47,7 +47,7 @@ Pastikan struktur folder Anda seperti ini sebelum menjalankan program:
 
 ```
 
-> **⚠️ Catatan Dataset:** Karena keterbatasan ukuran file di GitHub, Anda harus mengunduh *dataset* `im_instagram_70k` secara mandiri melalui [Kaggle](https://www.google.com/search?q=https://www.kaggle.com/datasets/krisnarp/instagram-network-dataset) dan meletakkannya di dalam folder `data/`.
+> **Source Dataset:** [Kaggle](https://www.google.com/search?q=https://www.kaggle.com/datasets/krisnarp/instagram-network-dataset)
 
 ---
 
