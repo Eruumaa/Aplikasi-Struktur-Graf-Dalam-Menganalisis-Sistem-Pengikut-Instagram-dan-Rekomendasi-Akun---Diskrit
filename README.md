@@ -101,5 +101,3 @@ Setelah output terminal selesai, sebuah jendela (*window*) **Matplotlib** akan t
 Penelitian dan kode ini dikembangkan murni untuk keperluan akademis. Kami mengucapkan terima kasih kepada Bapak Nazaruddin, S.Si., M.Eng.Sc., selaku Dosen Pengampu mata kuliah Struktur Diskrit USK.
 
 Metode evaluasi dalam kode ini merujuk pada buku *Discrete Mathematics and Its Applications* dan referensi standar IEEE terkini mengenai *Social Network Analysis*.
-
-```
