@@ -1,4 +1,3 @@
-```markdown
 # Aplikasi Struktur Graf Dalam Menganalisis Sistem Pengikut dan Rekomendasi Akun Pada Jaringan Sosial Instagram 📊🕸️
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
