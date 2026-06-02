@@ -10,7 +10,7 @@ Repositori ini berisi implementasi kode dalam bahasa Python untuk menganalisis t
 
 Proyek ini disusun sebagai Tugas Akhir mata kuliah **Matematika Diskrit (SINF1002)**, Program Studi Informatika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Syiah Kuala (USK).
 
-## 👥 Tim Peneliti (Kelompok 7)
+## 👥 Tim Peneliti
 * **Muhammad Aqil Mubarak** (250810701100003)
 * **Shofy Suhaila Putri** (250810701100007)
 * **Faiz Asra** (250810701100062)
