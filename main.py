@@ -116,3 +116,38 @@ nx.draw_networkx_edges(G_sub, pos, alpha=0.15, edge_color='gray')
 plt.title("Visualisasi Sub-Graf Komunitas Instagram\n(200 Akun Paling Berpengaruh)", fontsize=16, fontweight='bold')
 plt.axis("off")
 plt.show()
+
+# ==========================================
+# TAMBAHAN KODE UNTUK HASIL BAB 5
+# ==========================================
+print("\n" + "="*50)
+print("--- Figure 5.1: Top 5 Nodes by Degree Centrality ---")
+print(df_in_degree.head(5).to_string(index=False))
+
+print("\n--- Figure 5.2: Top 5 Nodes by Betweenness Centrality ---")
+print(df_between.head(5).to_string(index=False))
+
+print("\n--- Figure 5.3: Top 5 Nodes by Closeness Centrality ---")
+print(df_close.head(5).to_string(index=False))
+
+print("\n--- Figure 5.4: Detected Communities ---")
+print(f"Total komunitas (sirkel) yang berhasil dideteksi: {num_communities}")
+
+print("\n--- Figure 5.6: Network Density Result ---")
+density = nx.density(G)
+print(f"Kepadatan Jaringan (Network Density): {density:.6f}")
+
+print("\n--- Figure 5.7: Average Path Length Result ---")
+G_sub_undirected = G_sub.to_undirected()
+largest_cc = max(nx.connected_components(G_sub_undirected), key=len)
+G_largest_cc = G_sub_undirected.subgraph(largest_cc)
+apl = nx.average_shortest_path_length(G_largest_cc)
+print(f"Rata-rata Panjang Lintasan (Average Path Length) pada Sub-Graf: {apl:.4f}")
+
+print(f"\n--- Figure 5.8: Top 5 Recommendation Result untuk Akun {target_akun} ---")
+for kandidat, skor in hasil_rekomendasi:
+    print(f"Kandidat: {kandidat} | Skor Jaccard: {skor:.4f}")
+
+print("\n--- Figure 5.9: Top 10 Users by Degree ---")
+print(df_in_degree.head(10).to_string(index=False))
+print("="*50)
